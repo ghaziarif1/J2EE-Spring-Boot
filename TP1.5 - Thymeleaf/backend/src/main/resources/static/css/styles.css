@@ -1,0 +1,23 @@
+.cover {
+    width: 30%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.light-text {
+    color: gray;
+    text-align: center;
+}
+
+section, footer {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+}

@@ -1,0 +1,26 @@
+# Ignorer les builds et classes compilées
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignorer les dossiers IntelliJ
+.idea/
+*.iml
+
+# Ignorer les logs et temporaires
+*.log
+tmp/
+temp/
+
+# Ignorer les bases de données locales
+*.db
+*.sql
+
+# Ignorer les configs sensibles
+application.properties (si tu as des mots de passe dedans, sinon enleve cette ligne)
+
+# Ignorer les dossiers OS
+.DS_Store
+Thumbs.db
